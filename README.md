@@ -45,27 +45,28 @@ Project Root:
 - Timeout & Memory Optimization: Configured execution timeout to 1 minute to ensure seamless processing of batch text files without cold-start interruptions.
 
 ---
-
 ## Sample Execution & Results
 
 ### 1. Cloud Storage Setup (Amazon S3)
 Input data organized under inputs/ and final outputs routed to outputs/.
 
-![S3 Bucket](screenshots/S3_bucket.png)
-![S3 Objects](screenshots/S3_bucket_object.png)
+![S3 Bucket](S3_bucket.png)
+
+![S3 Objects](S3_bucket_objects.png)
 
 ### 2. Lambda Processing & Deployment
 Serverless function triggered and tested successfully with HTTP 200 execution status.
 
-![Lambda Editor](screenshots/Lambda_code_editor.png)
-![Lambda Execution](screenshots/Lambda_function.png)
+![Lambda Editor](Lambda_code_editor.png)
+
+![Lambda Execution](Lambda_function.png)
 
 ### 3. Monitoring & CloudWatch Tracing
 Verified execution durations and memory utilization via CloudWatch log streams.
 
-![CloudWatch Logs](screenshots/CloudWatch_Logs.png)
+![CloudWatch Logs](CloudWatch_Logs.png)
 
 ### 4. Output Sentiment Report
 Processed reviews categorized into Positive, Negative, and Neutral scores.
 
-![Analysis Summary](screenshots/output_file.png)
+![Analysis Summary](output_file.png)
